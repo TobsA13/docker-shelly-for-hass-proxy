@@ -54,7 +54,7 @@ def main():
   HOMEASSISTANT_IP = os.getenv('HASS_IP', '127.0.0.1')
   HOMEASSISTANT_PORT = int(os.getenv('HASS_PORT', default=5684))
   COAP_IP = os.getenv('COAP_IP', default='224.0.1.187')
-  COAP_UDP_PORT = int(os.getenv('COAP_PORT', default=5684))
+  COAP_UDP_PORT = int(os.getenv('COAP_PORT', default=5683))
   PROXY_DEBUG = os.getenv('PROXY_DEBUG', default='no')
 
   # start shelly proxy
